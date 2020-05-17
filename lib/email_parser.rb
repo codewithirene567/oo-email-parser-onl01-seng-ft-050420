@@ -17,13 +17,13 @@ def initialize(addresses)
   end
   
  def parse
-   gsub
+   addresses.gsub!(",", " ")
    broken_addresses= addresses.split(" ")
     broken_addresses.each {|addresses| addresses}
     broken_addresses.flatten.uniq
     end
   
-  
+  song_name.gsub!(".mp3", "")
   
 end
 
