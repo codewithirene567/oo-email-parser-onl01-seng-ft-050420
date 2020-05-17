@@ -19,7 +19,6 @@ def initialize(addresses)
  def parse
    addresses.gsub!(",", "")
    broken_addresses= addresses.split(" ")
-    broken_addresses.each {|addresses| addresses}
     broken_addresses.flatten.uniq
     end
   
