@@ -21,7 +21,7 @@ def initialize(addresses)
    broken_addresses= addresses.split(" ")
     broken_addresses.flatten.uniq
     end
-  
+  #delimiter is a string you pass in order to know how to split the string
   
   
 end
