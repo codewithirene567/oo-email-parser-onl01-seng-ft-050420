@@ -20,9 +20,7 @@ def initialize(addresses)
    broken_addresses= addresses.split(", ")
     broken_addresses.each {|addresses| addresses}
     broken_addresses.flatten.uniq
-    
-  
-end
+    end
   
   
 end
