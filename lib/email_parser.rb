@@ -24,6 +24,7 @@ def initialize(addresses)
     end
   
   
+  
 end
 
 
