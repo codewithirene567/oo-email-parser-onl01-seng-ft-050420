@@ -22,6 +22,8 @@ def initialize(addresses)
     broken_addresses.flatten.uniq
     end
   #delimiter is a string you pass in order to know how to split the string
+  #"string_1, string_2"
+  #", " the delimiter is just the space
   
   
 end
