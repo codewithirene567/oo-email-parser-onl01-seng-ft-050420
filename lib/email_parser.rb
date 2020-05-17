@@ -23,7 +23,7 @@ def initialize(addresses)
     broken_addresses.flatten.uniq
     end
   
-  song_name.gsub!(".mp3", "")
+  
   
 end
 
